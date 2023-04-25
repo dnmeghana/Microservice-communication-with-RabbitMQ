@@ -1,6 +1,6 @@
 # Microservice-communication-with-RabbitMQ
 # Team Members
-1.MEGHANA N-PES2UG20CS519
+1.MEGHANA N-PES2UG20CS519\n
 2.JYOTHI S-PES2UG20CS519
 3.UMADEVI -PES2UG20CS477
 # Introduction
