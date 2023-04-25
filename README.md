@@ -1,7 +1,7 @@
 # Microservice-communication-with-RabbitMQ
 # Team Members
 1.MEGHANA N-PES2UG20CS519																																 																										              
-2.JYOTHI S-PES2UG20CS513																																																																	
+2.JYOTHI S-PES2UG20CS513																																								
 3.UMADEVI -PES2UG20CS477
 # Introduction
 The microservice architecture is one of the most popular forms of deployment, especially in larger organizations where there are multiple components that can be loosely coupled together. Not only does this make it easier to work on separate components independently, but ensures that issues in one component do not bring down the rest of the service. A microservices architecture consists of a collection of small, autonomous services where each service is self-contained and should implement a single business capability within a bounded context. This also comes with the advantage that a single system can scale thereby limiting the resources to required components. For example, during a shopping sale, the cart and payment microservices might need more resources than the login microservice.
@@ -40,9 +40,7 @@ Building and deploying a microservices architecture where multiple components co
     • For the consumer_three (delete_record):
         ◦ RabbitMQ Client to listen for incoming requests on the “delete_record” queue and process it.
         ◦ This consumer must delete a record from the database based on the SRN which has been listened to through the “delete_record” queue.
-    • 
-
-For the consumer_four (read_database):
+    • For the consumer_four (read_database):
         ◦ RabbitMQ Client to listen for incoming requests on the “read_database” queue and process it.
         ◦ This consumer must retrieve all the records present in the database.
     • Dockerizing the application
